@@ -1,7 +1,7 @@
 public with sharing class PropertyController {
     private static final Decimal DEFAULT_MAX_PRICE = 9999999;
     private static final Integer DEFAULT_PAGE_SIZE = 9;
-
+    /** for Git
     /**
      * Endpoint that retrieves a paged and filtered list of properties
      * @param searchKey String used for searching on property title, city and tags
